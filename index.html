@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first-website</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-bottom:2px solid #ffc107 ;">
+      <!-- navbar brand -->
+        <a class="navbar-brand text-warning" href="#">MEMO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- navbar items -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">doc</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+              <!-- dropdown menu -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                tracks
+              </a>
+              <div class="dropdown-menu ">
+                <a class="dropdown-item" href="#">Front-End Developer </a>
+                <div class="dropdown-divider mx-auto" style="border-top: 1px dashed #e9ecef ; border-bottom: none;"></div>
+                <a class="dropdown-item" href="#">Back-End Developer</a>
+                <div class="dropdown-divider mx-auto" style="border-top: 1px dashed #e9ecef ; border-bottom: none;"></div>
+                <a class="dropdown-item" href="#"> Cyber Security Track </a>
+                <div class="dropdown-divider mx-auto" style="border-top: 1px dashed #e9ecef ; border-bottom: none;"></div>
+                <a class="dropdown-item" href="#">Python Developer Track </a>
+                <div class="dropdown-divider mx-auto" style="border-top: 1px dashed #e9ecef ; border-bottom: none;"></div>
+                <a class="dropdown-item" href="#">Full Stack Developer</a>
+              </div>
+            </li>
+            
+          </ul>
+          </div>
+      </nav>
+
+      <!-- About us -->
+
+      <div class="container my-2 mx-auto">
+        <div class="row">
+          <!-- jumbotron -->
+            <div class="col-lg-8">
+                <div class="jumbotron bg-light">
+                    <h1 class="display-4 text-warning">MEMO</h1>
+                    <p class="lead">Elmemo is an entity that was established with the aim of teaching programming online for free.
+                       In this academy,  there are many educational courses, whether written or visual, or both. 
+                         this entity help this student to understand his programming material greatly. </p>
+                    <hr class="my-4">
+                    <p class="lead">Here there are many specializations such as the web front-end and web back-end.</p>
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-warning" type="submit">Search</button>
+                      </form>
+                  </div>
+            
+            </div>
+            <!-- courses -->
+            <div class="col-lg-4">
+                <div class="list-group">
+                    <a data-toggle="collapse" href="#courses" class="list-group-item list-group-item-action bg-warning" aria-current="true"  >
+                      courses
+                    </a>
+
+                    <div class="collapse show" id="courses">
+                        <a href="#" class="list-group-item list-group-item-action">HTML</a>
+                        <a href="#" class="list-group-item list-group-item-action">CSS</a>
+                        <a href="#" class="list-group-item list-group-item-action">Javscript</a>
+                        <a href="#" class="list-group-item list-group-item-action">Bootstrap</a>
+                        <a href="#" class="list-group-item list-group-item-action">Sass</a>
+                        <a href="#" class="list-group-item list-group-item-action">php</a>
+                        <a href="#" class="list-group-item list-group-item-action">python</a>
+                    
+                    
+                    </div>
+                    
+                  </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- course cards -->
+      <div class="container mx-auto">
+        <div class="text-center m-4">
+          <!-- card title -->
+            <h3>Courses</h3>
+            <P>We have a lot of courses that help you. </P>
+          </div>
+        <!-- cards -->
+         <div class="row ">
+          <div class="card-deck">
+            <!-- html card -->
+            <div class="col-lg-4  col-md-6 col-12 p-2">
+              <div class="card h-100 p-1" >
+                <img class="card-img-top mx-auto d-block p-3 rounded-circle bg-light " src="Images/html.png" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                
+                <div class="card-body">
+                  <h3 class="card-title">HTML</h3>
+                  <p class="card-text">HTML is the standard markup language for Web pages. 
+                                       With HTML you can create your own Website.
+                                       HTML is easy to learn - You will enjoy it!
+                    </p>
+                  <a href="#" class="btn btn-warning stretched-link">Launch</a>
+                </div>
+              </div>
+            </div>
+            <!-- CSS card -->
+            <div class="col-lg-4  col-md-6 col-12 p-2">
+              <div class="card h-100 p-1" >
+                <img class="card-img-top mx-auto d-block p-3 rounded-circle bg-light" src="Images/css.png" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                <div class="card-body">
+                  <h3 class="card-title">CSS</h3>
+                  <p class="card-text"> CSS is the language we use to style an HTML document.
+                                        CSS describes how HTML elements should be displayed.
+                                        
+                </p>
+                <br>
+                  <a href="#" class="btn btn-warning stretched-link">Launch</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- JavaScript card -->
+            <div class="col-lg-4  col-md-6 col-12 p-2">
+              <div class="card h-100 p-1" >
+                <img class="card-img-top mx-auto d-block p-3 rounded-circle bg-light" src="Images/download.png" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                <div class="card-body">
+                  <h4 class="card-title">JavaScript</h4>
+                  <p class="card-text">JavaScript is the world's most popular programming language.
+                                       JavaScript is the programming language of the Web.                   
+                                       JavaScript is easy to learn.</p>
+                  <a href="#" class="btn btn-warning stretched-link">Launch</a>
+                </div>
+              </div>
+            </div> 
+
+            <!-- bootstrap card -->
+            <div class="col-lg-4  col-md-6 col-12 p-2">
+              <div class="card h-100 p-1" >
+                <img class="card-img-top mx-auto d-block p-3 rounded-circle bg-light" src="Images/bootstrap-logo.png" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                <div class="card-body">
+                  <h4 class="card-title">Bootstrap</h4>
+                  <p class="card-text">Bootstrap is a free front-end framework for faster and easier web development
+                    Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other.
+                    </p>
+                  <a href="#" class="btn btn-warning stretched-link">Launch</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- php card -->
+            <div class="col-lg-4  col-md-6 col-12 p-2">
+              <div class="card h-100 p-1" >
+                <img class="card-img-top mx-auto d-block p-3 rounded-circle bg-light" src="Images/php.png" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                <div class="card-body">
+                  <h4 class="card-title">PHP</h4>
+                  <p class="card-text">PHP is a popular general-purpose scripting language that is especially suited to web development.
+                    Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.</p>
+                  <a href="#" class="btn btn-warning stretched-link">Launch</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Python card -->
+            <div class="col-lg-4  col-md-6 col-12 p-2">
+              <div class="card h-100 p-1" >
+                <img class="card-img-top mx-auto d-block p-3 rounded-circle bg-light" src="Images/Python.png" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                <div class="card-body">
+                  <h4 class="card-title">Python</h4>
+                  <p class="card-text" >Python is a popular programming language.
+
+                    Python can be used on a server to create web applications.
+                    
+                    Python is a high-level, general-purpose programming language.
+                    </p>
+                    <br> <br> 
+                  <a href="#" class="btn btn-warning stretched-link">Launch</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+        </div>
+
+        <!-- carousel -->
+
+        <div class="container  my-5 mx-auto " style="height: 400px;">
+          <div class="text-center">
+            <h3 style="letter-spacing :5px ;">Learn More</h3>
+            <P>We have more courses. </P>
+          </div>
+          <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <!-- first slide -->
+              <div class="carousel-item active">
+                <img src="Images/security.jpg" class="d-block w-100 mx-auto" alt="cyber security" style="height: 550px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cyber Security Track</h5>
+                  <p>The Cyber Security track is considered one of the most important software tracks required in the labor market,
+                     so you will find here a complete map to learn the basics of cyber security.</p>
+                </div>
+              </div>
+              <!-- second slide -->
+              <div class="carousel-item">
+                <img src="Images/network.jpg" class="d-block w-100 mx-auto" alt="Network track" style="height: 550px" >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Network Track</h5>
+                  <p>Networks are considered one of the most vulnerable points in any system and are considered one of the most important things that a cybersecurity specialist should know.
+                     Most of the cyber attacks are carried out through different networks,</p>
+                </div>
+              </div>
+
+              <!-- third slide -->
+              <div class="carousel-item">
+                <img src="Images/python-developer.jpg" class="d-block w-100 mx-auto" alt="python-developer" style="height: 550px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Python Developer Track</h5>
+                  <p>The complete track to mastering Python website development with popular frameworks like Django and Flask.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- slide icon -->
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <br> <br> <br> <br> <br> <br> <br> <br> 
+
+        <!-- quizzes cards -->
+
+        <div class="container mx-auto my-5">
+          <!-- title card -->
+          <div class="text-center m-4">
+              <h3>Quizzes</h3>
+            </div>
+          
+           <div class="row ">
+            <div class="card-deck">
+              <!-- html quiz card -->
+              <div class="col-lg-4  col-md-6 col-12 p-2">
+                <div class="card h-100 p-1" >
+                  <img class="card-img-top mx-auto d-block p-3 rounded-circle  " src="Images/quiz.jpg" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                  
+                  <div class="card-body text-center">
+                    <h3 class="card-title">HTML Quizzes</h3>
+                    <p class="card-text">You can choose between the types of challenges found in HTML, 
+                      and you can challenge yourself in each part separately.
+                       The challenges are divided in a wonderful way that helps the user to understand well.
+                      </p>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- css quiz card -->
+              <div class="col-lg-4  col-md-6 col-12 p-2">
+                <div class="card h-100 p-1" >
+                  <img class="card-img-top mx-auto d-block p-3 rounded-circle " src="Images/quiz.jpg" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">CSS Quizzes</h3>
+                    <p class="card-text"> You can choose between the types of challenges found in CSS, and you can challenge yourself in each part separately.
+                      The challenges are divided in a wonderful way that helps the user to understand well.
+                                          
+                  </p>
+                  <br>
+                  <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- JavaScript quiz card -->
+              <div class="col-lg-4  col-md-6 col-12 p-2">
+                <div class="card h-100 p-1" >
+                  <img class="card-img-top mx-auto d-block p-3 rounded-circle " src="Images/quiz.jpg" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                  <div class="card-body text-center">
+                    <h4 class="card-title">JavaScript Quizzes</h4>
+                    <p class="card-text">You can choose between the types of challenges found in JavaScript, 
+                      and you can challenge yourself in each part separately.
+                       The challenges are divided in a wonderful way that helps the user to understand well.</p>
+                       <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div> 
+
+              <!-- Bootstrap quiz card -->
+              <div class="col-lg-4  col-md-6 col-12 p-2">
+                <div class="card h-100 p-1" >
+                  <img class="card-img-top mx-auto d-block p-3 rounded-circle " src="Images/quiz.jpg" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Bootstrap Quizzes</h4>
+                    <p class="card-text">You can choose between the types of challenges found in Bootstrap,
+                       and you can challenge yourself in each part separately.
+                       The challenges are divided in a wonderful way that helps the user to understand well.
+                      </p>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- php quiz card -->
+              <div class="col-lg-4  col-md-6 col-12 p-2">
+                <div class="card h-100 p-1" >
+                  <img class="card-img-top mx-auto d-block p-3 rounded-circle " src="Images/quiz.jpg" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                  <div class="card-body text-center">
+                    <h4 class="card-title">PHP Quizzes</h4>
+                    <p class="card-text">You can choose between the types of challenges found in PHP,
+                       and you can challenge yourself in each part separately.
+                       The challenges are divided in a wonderful way that helps the user to understand well.</p>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- python quiz card -->
+              <div class="col-lg-4  col-md-6 col-12 p-2">
+                <div class="card h-100 p-1" >
+                  <img class="card-img-top mx-auto d-block p-3 rounded-circle " src="Images/quiz.jpg" alt="Card image" style="height: 13rem; width: 13rem; object-fit:contain ;">
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Python Quizzes</h4>
+                    <p class="card-text" >You can choose between the types of challenges found in Python,
+                       and you can challenge yourself in each part separately.
+                       The challenges are divided in a wonderful way that helps the user to understand well.
+                      </p>
+                      <br> <br> 
+                      <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+          </div>
+
+          <!-- why us sction -->
+
+        <div class="text-center my-5 ">
+          <h3> Why Us?</h3>
+        </div>
+
+       
+        <div class="container bg-light mx-auto align-items-center  " >
+          
+          <div class="row ">
+            <div class="col-md-7 ">
+              <h1 class="text-warning pt-4 ">MEMO Academy</h1>
+              <h6 class="lead">How do you make the most of Elmemo Academy?</h6>
+              <h5 class="text-warning"> <em> <strong> #1  programming courses</strong></em> </h5>
+                 <p>
+                Here are many educational courses that start with you from scratch, you can start with them</p>
+                <h5 class="text-warning"><em> <strong> #2  Problem Solving </strong></em></h5>
+                 <p>
+                  After you have finished learning a programming language or a particular programming discipline, you must test your understanding and comprehension of what you have learned,
+                   and here is the problem solving section, which contains many tests and challenges</P>
+                
+                  <h5 class="text-warning"><em> <strong> #3  work projects </strong></em></h5>
+                 <p>
+                  After you have completed the programming specialization you learned at Novell Academy, 
+                  you can now create projects to be the culmination of your effort,
+                   and you can send these projects to our Facebook group to be evaluated by thousands of programmers</P>
+            </div>
+            <div class="col-md-5" style="padding-right: 0px;">
+              <img src="Images/5.jpg" alt="image" class=" rounded mx-auto  img-responsive w-100" style="height: 520px ;  " >
+            </div>
+          </div>
+         
+        </div>
+
+        <!-- contact us section  -->
+
+        <div class="container mx-auto  bg-light-50">
+          <div class="text-center my-5 ">
+            <h3> Contact Us</h3>
+          </div>
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              
+              <div class="col">
+                <div class="card-body">
+                  <h4 class="card-title text-warning text-center">GET IN TOUCH</h4>
+                  <p class="card-text" style="font-size: 25px;">You can contact us now.</p>
+                  <p class="card-text text-secondary">Leave us your message here and we will reply to you as soon as we see it.</p>
+                  
+
+                  <!-- form -->
+
+                  <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col mb-3">
+                        <label for="validationTooltip01">Name<span style="color: red;"> *</span></label>
+                        <input type="text" class="form-control" id="validationTooltip01"  required>
+                        
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col mb-3">
+                        <label for="validationTooltip03">Email address <span style="color: red;"> *</span></label>
+                        <input type="email" class="form-control" id="validationTooltip03" placeholder="name@example.com" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                          We 'll never share your email with anyone.
+                        </small>
+                      
+                      </div>
+
+                    </div>  
+
+                      <div class="form-row">
+                        <div class="col mb-3">
+                          <label for="validationTooltip03">Your Message <span style="color: red;"> *</span></label>
+                          <textarea class="form-control" id="validationTooltip03" rows="3"  required></textarea>
+                          
+                        </div>
+                      </div>  
+                      
+                      
+                    
+                    <button class="btn btn-warning" type="submit">Send</button>
+                  </form>
+
+                  
+                </div>
+              </div>
+
+              <div class="col">
+                <img src="Images/contact2.jpg" alt="contact"  class="rounded mx-auto  img-responsive w-100 h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+ <!-- Footer -->
+<footer class="bg-dark text-center text-white" style="border-top:3px solid #ffc107 ; ">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong class="text-warning">Sign up for our new courses</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-warning mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p class="text-warning">
+        MEMO Academy for programming education
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col mb-4 ">
+          <h5 class="text-warning" >Site Menu</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-secondary">Home</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary">Courses</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary">About Us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary">Contact Us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary">Blog</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary">Terms</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+
+       
+      </div>
+      
+    </section>
+    
+  </div>
+  
+
+  <!-- Copyright -->
+  <div class="text-center text-warning p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-warning" href="#">MEMO</a>
+  </div>
+  
+</footer>
+
+
+        
+
+
+
+
+       
+
+        
+        
+   <!-- bootstrap scripts -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"> </script>
+    <script src="js/bootstrap.js"></script>
+    
+    
+</body>
+</html>
